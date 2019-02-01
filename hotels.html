@@ -19,6 +19,44 @@
     <main class="container">
       <section class="filters">
        <h2 class="visualy-hidden">Фильтры гостиниц</h2>
+       <form class="hotel-filters" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="infrastructure">
+         <legend>Инфраструктура:</legend>
+          <ul>
+           <li>
+            <input type="checkbox" name="pool" id="pool-filter">
+            <label for="pool-filter">Бассейн</label>
+           </li>
+           <li>
+            <input type="checkbox" name="parcking" id="parcking-filter">
+            <label for="parcking-filter">Парковка</label>
+           </li>
+           <li>
+            <input type="checkbox" name="Wi-Fi" id="Wi-Fi-filter">
+            <label for="Wi-Fi-filter">Wi-Fi</label>
+           </li>
+         </ul>
+        </fieldset>
+        <fieldset class="hotel-type">
+         <legend>Тип жилья</legend>
+          <ul>
+           <li>
+            <input type="checkbox" name="hotel" id="hotel-filter">
+            <label for="hotel-filter">Гостиница</label>
+           </li>
+           <li>
+            <input type="checkbox" name="motel" id="motel-filter">
+            <label for="motel-filter">Мотель</label>
+           </li>
+           <li>
+            <input type="checkbox" name="apartment" id="apartment-filter">
+            <label for="apartment-filter">Апартамены</label>
+           </li>
+         </ul>
+        </fieldset>
+        <!--Форма с бегукнком-->
+        <button class="showresult" aria-label="Показать результат">Показать</button>
+       </form>
       </section>
       <section class="hotels">
         <h2 class="visualy-hidden">Гостиницы</h2>
@@ -80,9 +118,9 @@
     <footer class="main-footer">
       <p>#Visitsedona</p>
       <ul class="soсial-network">
-        <li> <a class="soсial-button" href="#">Твиттер</a></li>
-        <li> <a class="soсial-button" href="#">Фейсбук</a></li>
-        <li> <a class="soсial-button" href="#">Youtube</a></li>
+        <li> <a class="soсial-button" href="#" aria-label="Седона в Твиттере">Твиттер</a></li>
+        <li> <a class="soсial-button" href="#" aria-label="Седона в Фейсбуке">Фейсбук</a></li>
+        <li> <a class="soсial-button" href="#" aria-label="Седона в Youtube>Youtube"></a></li>
       </ul>
       <p class="footer-copyright">
         <span>Website by:</span>
