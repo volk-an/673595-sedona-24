@@ -34,7 +34,7 @@
                <li><h4>Сувениры</h4><span class="feature-description">Не только китайского, но и местного производства!</span></li>
              </ul>
           </li>
-           <li class="grand-canyon"><img src="img/Grand-Canyon.jpg" width="800" height="256" alt="Фото каньона"><h3>Там есть Мост дьявола</h3><span class="advantage-number">№2</span><span class="advantage-description">
+           <li class="grand-canyon"><img src="img/grand-canyon.jpg" width="800" height="256" alt="Фото каньона"><h3>Там есть Мост дьявола</h3><span class="advantage-number">№2</span><span class="advantage-description">
             Да, по нему можно пройти! Если конечно вы осмелитесь</span></li>
            <li class="small"><h3>Небольшая площадь</h3><span class="advantage-number">№3</span><span class="advantage-description">
             Все достопримечательности находятся очень близко</span></li>
@@ -48,27 +48,27 @@
         <h2 class="visualy-hidden">Поиск отеля</h2>
         <p class="search-title">Заинтересовались?</p>
         <p class="search-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="searchform-open">Поиск гостиницы в Седоне</button>
         <form class="hotel-search" action="https://echo.htmlacademy.ru" method="post">
-          <button class="searchform-open" aria-label="Открыть форму поиска гостиницы">Поиск гостиницы в Седоне</button>
-          <p class="date">
+          <p class="text">
            <label for="check-in">Дата заезда</label>
            <input type="date" name="check-in-date" id="check-in">
+          </p>
+          <p class="text">
+           <label for="check-out">Дата выезда</label>
+           <input type="date" name="check-out-date" id="check-out">
+          </p>
+          <p class="guests-number">
+           <label for="adult">Взрослые:</label>
+           <input type="number" min="1" step="1" value="2" name="adult-number" id="adult">
+          </p>
+          <p class="guests-number">
+           <label for="child">Дети:</label>
+           <input type="number" min="0" step="1" value="0" name="child-number" id="child">
          </p>
-         <p class="date">
-          <label for="check-out">Дата выезда</label>
-          <input type="date" name="check-out-date" id="check-out">
-        </p>
-        <p class="guests-number">
-         <label for="adult">Взрослые:</label>
-         <input type="number" min="1" step="1" value="2" name="adult-number" id="adult">
-       </p>
-       <p class="guests-number">
-        <label for="child">Дети:</label>
-        <input type="number" min="0" step="1" value="0" name="child-number" id="child">
-      </p>
-      <button type="submit" aria-label="Найти гостиницу">Найти</button>
+         <button type="submit">Найти</button>
         </form>
-        <!--форма и карта-->
+        <!-- карта-->
       </section>
     </main>
     <footer class="main-footer">
@@ -80,7 +80,7 @@
       </ul>
       <p class="footer-copyright">
         <span>Website by:</span>
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_HTMLAcademy.png" width="115" height="41" alt="Фото HTMLACADEMY"></a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_htmlacademy.png" width="115" height="41" alt="Фото HTML Academy"></a>
       </p>
-     </footer>
+    </footer>
 </html>

@@ -7,7 +7,7 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-logo-image" href="index.html"><img src="img/Sedona_logo.svg" width="140" height="72" alt="логотип седона"></a>
+        <a class="main-logo-image" href="index.html"><img src="img/svg-sedona/logo-sedona.svg" width="140" height="72" alt="логотип седона"></a>
         <ul class="site-navigation">
           <li><a href="#">информация</a></li>
           <li><a href="#">фото и видео</a></li>
@@ -20,42 +20,42 @@
       <section class="filters">
        <h2 class="visualy-hidden">Фильтры гостиниц</h2>
        <form class="hotel-filters" action="https://echo.htmlacademy.ru" method="post">
-        <fieldset class="infrastructure">
+        <fieldset class="hotel-filters">
          <legend>Инфраструктура:</legend>
           <ul>
            <li>
-            <input type="checkbox" name="pool" id="pool-filter">
+            <input type="checkbox" name="infrastructure" id="pool-filter" value="pool">
             <label for="pool-filter">Бассейн</label>
            </li>
            <li>
-            <input type="checkbox" name="parcking" id="parcking-filter">
-            <label for="parcking-filter">Парковка</label>
+            <input type="checkbox" name="infrastructure" id="parking-filter" value="parking">
+            <label for="parking-filter">Парковка</label>
            </li>
            <li>
-            <input type="checkbox" name="Wi-Fi" id="Wi-Fi-filter">
-            <label for="Wi-Fi-filter">Wi-Fi</label>
+            <input type="checkbox" name="infrastructure" id="wi-fi-filter" value="wi-fi">
+            <label for="wi-fi-filter">Wi-Fi</label>
            </li>
-         </ul>
+          </ul>
         </fieldset>
-        <fieldset class="hotel-type">
+        <fieldset class="hotel-filters">
          <legend>Тип жилья</legend>
           <ul>
            <li>
-            <input type="checkbox" name="hotel" id="hotel-filter">
+            <input type="checkbox" name="hotel-type" id="hotel-filter" value="hotel">
             <label for="hotel-filter">Гостиница</label>
            </li>
            <li>
-            <input type="checkbox" name="motel" id="motel-filter">
+            <input type="checkbox" name="hotel-type" id="motel-filter" value="motel">
             <label for="motel-filter">Мотель</label>
            </li>
            <li>
-            <input type="checkbox" name="apartment" id="apartment-filter">
+            <input type="checkbox" name="hotel-type" id="apartment-filter" value="apartment">
             <label for="apartment-filter">Апартамены</label>
            </li>
-         </ul>
+          </ul>
         </fieldset>
         <!--Форма с бегукнком-->
-        <button class="showresult" aria-label="Показать результат">Показать</button>
+        <button  type="submit" class="showresult">Показать</button>
        </form>
       </section>
       <section class="hotels">
@@ -64,7 +64,7 @@
           <li class="hotel-item">
             <h3 class="hotel-name"><a href="#">Amara Resort & Spa</a></h3>
             <p class="hotel-image">
-              <img src="img/Amara_Resort_Spa.jpg" width="135" height="90" alt="Фото Amara Resort & Spa">
+              <img src="img/amara_resort_spa.jpg" width="135" height="90" alt="Фото Amara Resort & Spa">
             </p>
             <p class="hotel-details">
               <span class="hotel-type">гостиница</span>
@@ -81,7 +81,7 @@
           <li class="hotel-item">
             <h3 class="hotel-name"><a href="#">Desert Quail Inn</a></h3>
             <p class="hotel-image">
-              <img src="img/Desert_Quail_Inn.jpg" width="135" height="90" alt="Фото Desert Quail Inn">
+              <img src="img/desert_quail_inn.jpg" width="135" height="90" alt="Фото Desert Quail Inn">
             </p>
             <p class="hotel-details">
               <span class="hotel-type">мотель</span>
@@ -98,7 +98,7 @@
           <li class="hotel-item">
             <h3 class="hotel-name"><a href="#">Villas at Poco Diablo</a></h3>
             <p class="hotel-image">
-              <img src="img/Villas_at_Poco_Diablo.jpg" width="135" height="90" alt="Фото Villas at Poco Diablo">
+              <img src="img/villas_at_poco_diablo.jpg" width="135" height="90" alt="Фото Villas at Poco Diablo">
             </p>
             <p class="hotel-details">
               <span class="hotel-type">апартаменты</span>
@@ -113,7 +113,7 @@
             </p>
           </li>
         </ul>
-        </section>
+      </section>
     </main>
     <footer class="main-footer">
       <p>#Visitsedona</p>
@@ -124,8 +124,8 @@
       </ul>
       <p class="footer-copyright">
         <span>Website by:</span>
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_HTMLAcademy.png" width="115" height="41" alt="Фото HTMLACADEMY"></a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_htmlacademy.png" width="115" height="41" alt="Фото HTML Academy"></a>
       </p>
-     </footer>
+    </footer>
   </body>
 </html>
