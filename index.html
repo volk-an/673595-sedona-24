@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -85,11 +88,11 @@
         <p class="search-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
         <button class="searchform-open">Поиск гостиницы в Седоне</button>
         <form class="hotel-search" action="https://echo.htmlacademy.ru" method="get">
-          <p class="text">
+          <p class="date">
             <label for="check-in">Дата заезда</label>
             <input type="text" name="check-in-date" id="check-in" value="24 апреля 2017">
           </p>
-          <p class="text">
+          <p class="date">
             <label for="check-out">Дата выезда</label>
             <input type="text" name="check-out-date" id="check-out" value="4 июля 2017">
           </p>
@@ -101,13 +104,13 @@
             <label for="child">Дети:</label>
             <input type="number" min="0" step="1" value="0" name="child-number" id="child">
           </p>
-          <button type="submit">Найти</button>
+          <button type="submit" class="search-submit">Найти</button>
         </form>
         <!-- карта-->
       </section>
     </main>
     <footer class="main-footer">
-      <p>#Visitsedona</p>
+      <p class="footer-text">#Visitsedona</p>
       <ul class="soсial">
         <li>
           <a class="soсial-button" href="#" aria-label="седона в твиттере"></a>

@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Hotels | Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -34,15 +37,15 @@
           <legend>Инфраструктура:</legend>
             <ul>
               <li>
-                <input type="checkbox" name="infrastructure" id="pool-filter" value="pool" checked>
+                <input class="filter-input" type="checkbox" name="infrastructure" id="pool-filter" value="pool" checked>
                 <label for="pool-filter">Бассейн</label>
               </li>
               <li>
-                <input type="checkbox" name="infrastructure" id="parking-filter" value="parking">
+                <input class="filter-input" type="checkbox" name="infrastructure" id="parking-filter" value="parking">
                 <label for="parking-filter">Парковка</label>
               </li>
               <li>
-                <input type="checkbox" name="infrastructure" id="wi-fi-filter" value="wi-fi">
+                <input class="filter-input" type="checkbox" name="infrastructure" id="wi-fi-filter" value="wi-fi">
                 <label for="wi-fi-filter">Wi-Fi</label>
               </li>
             </ul>
@@ -51,15 +54,15 @@
             <legend>Тип жилья:</legend>
               <ul>
                 <li>
-                  <input type="checkbox" name="hotel-type" id="hotel-filter" value="hotel" checked>
+                  <input class="filter-input" type="checkbox" name="hotel-type" id="hotel-filter" value="hotel" checked>
                   <label for="hotel-filter">Гостиница</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="hotel-type" id="motel-filter" value="motel" checked>
+                  <input class="filter-input" type="checkbox" name="hotel-type" id="motel-filter" value="motel" checked>
                   <label for="motel-filter">Мотель</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="hotel-type" id="apartment-filter" value="apartment" checked>
+                  <input class="filter-input" type="checkbox" name="hotel-type" id="apartment-filter" value="apartment" checked>
                   <label for="apartment-filter">Апартамены</label>
                 </li>
               </ul>
@@ -87,7 +90,7 @@
               <a class="button-booking" href="#">Забронировать</a>
             </p>
             <p class="hotel-raiting">
-              <span>Рейтинг:8,5</span>
+              <span>Рейтинг: 8,5</span>
             </p>
           </li>
           <li class="hotel-item">
@@ -105,8 +108,8 @@
               <a class="button-details" href="#">Подробнее</a>
               <a class="button-booking" href="#">Забронировать</a>
             </p>
-            <p class="item-raiting">
-              <span>Рейтинг:8,9</span>
+            <p class="hotel-raiting">
+              <span>Рейтинг: 8,9</span>
             </p>
           </li>
           <li class="hotel-item">
@@ -124,15 +127,15 @@
               <a class="button-details" href="#">Подробнее</a>
               <a class="button-booking" href="#">Забронировать</a>
             </p>
-            <p class="item-raiting">
-              <span>Рейтинг:9,2</span>
+            <p class="hotel-raiting">
+              <span>Рейтинг: 9,2</span>
             </p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="main-footer">
-      <p>#Visitsedona</p>
+      <p class="footer-text">#Visitsedona</p>
       <ul class="soсial">
         <li>
           <a class="soсial-button" href="#" aria-label="седона в твиттере"></a>
