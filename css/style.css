@@ -7,17 +7,43 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   text-transform: uppercase;
+  background-image: url(../img/bg_sedona.jpg);
+  background-repeat: no-repeat;
+}
+.main-header {
+  min-height: 72px;
+  margin-bottom: 61px;
+  display: flex;
+  flex-direction: row;
+}
+.main-navigation {
+
+  width: 100%;
+
 }
 a {
    text-decoration: none;
 }
-.main-navigation {
-  background-color: #ffffff;
+
+
+}
+.main-logo-image {
+  width: 140px;
+  height: 72px;
 }
 .site-navigation {
+  padding: 0;
+  margin: 0;
+  min-height: 56px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+
 }
 .site-navigation a {
   line-height: 26px;
@@ -35,8 +61,8 @@ a {
   color:#766357;
 }
 .promo {
-  background-color: #dbe9f2;
-  background-image: url(../img/bg_sedona.jpg);
+  min-height: 728px;
+
 }
 .promo-title {
   font-size: 21px;
@@ -165,7 +191,7 @@ a {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
-  background-color: #ffffff;
+
 }
 .hotel-name a:hover {
   color: #81b3d2;
