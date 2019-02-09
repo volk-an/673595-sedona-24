@@ -140,7 +140,7 @@ a {
 .filters {
   color: #ffffff;
   background-color: #5d88b2;
-  background-image: url(img/filter_background.png);
+  background-image: url(../img/filter_background.png);
 }
 .hotel-filters fieldset {
   border: none;
