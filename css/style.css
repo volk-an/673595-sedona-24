@@ -5,6 +5,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
+  text-transform: uppercase;
   color: #333333;
   background-color: #ffffff;
   text-transform: uppercase;
@@ -24,59 +25,57 @@ a {
   color: #000000;
   border-color: #ffffff;
 }
- .site-navigation a:hover {
+ .site-navigation a[href]:hover {
   color: #81b3d2;
 }
- .site-navigation a:focus {
+ .site-navigation a[htef]:focus {
   color: #b2b2b2;
 }
 .site-navigation-current a {
   color:#766357;
 }
-/* .site-navigation a: {
-  color: #766357;
- } активный находимся на странице*/
 .promo {
   background-color: #dbe9f2;
-  background-image: url(img/bg_sedona.jpg);
+  background-image: url(../img/bg_sedona.jpg);
 }
 .promo-title {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  text-align: center;
   color: #000000;
   background-color:#dbe9f2;
-  text-align: center;
 }
 .promo-text {
   line-height: 26px;
+  text-align: center;
   color: #333333;
   background-color: #ffffff;
-  text-align: center;
- }
+}
 .search-title {
   font-size: 30px;
   line-height: 31px;
   font-weight: 700;
-  color: #000000;
   text-align: center;
+  color: #000000;
+  background-color:#dbe9f2;
 }
 .search-text {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
-  color: #333333;
   text-align: center;
+  color: #333333;
 }
 .searchform-open {
   font: inherit;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
   text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
   background-color: #766357;
   border: none;
 }
@@ -84,31 +83,31 @@ a {
   background-color: #604e43;
 }
 .searchform-open:focus{
-  background-color: #503e33;
   color: #847870;
+  background-color: #503e33;
 }
 .hotel-search {
-  background-color: #ffffff;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+  background-color: #ffffff;
 }
 .hotel-search input {
-  background-color: #f2f2f2;
-  border: none;
   font: inherit;
   text-transform: uppercase;
+  background-color: #f2f2f2;
+  border: none;
 }
 .search-submit {
   font: inherit;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
   text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
   background-color: #81b3d2;
   border: none;
 }
@@ -116,64 +115,70 @@ a {
   background-color: #669ec0;
 }
 .search-submit:focus {
-  background-color: #5496bd;
   color: #87b6d1;
+  background-color: #5496bd;
 }
 .main-footer {
   background-color: #ffffff;
 }
 .footer-text {
-  background-color: #ffffff;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
+  background-color: #ffffff;
 }
 .soсial {
   list-style: none;
 }
 .footer-copyright {
-  background-color: #ffffff;
+  font-size: 14px;
   line-height: 26px;
   color: #000000;
-  font-size: 14px;
+  background-color: #ffffff;
 }
 .filters {
+  color: #ffffff;
   background-color: #5d88b2;
   background-image: url(img/filter_background.png);
-  color: #ffffff;
 }
 .hotel-filters fieldset {
   border: none;
 }
 .hotel-filters ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .hotel-filters legend {
   font-size: 16px;
   font-weight: 700;
+  color: #ffffff;
   background-color: #5d88b2;
-    color: #ffffff;
 }
 .hotels ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .hotels a {
-  color: #000000;
   font-size: 21px;
   line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
 }
 .hotel-name a:hover {
   color: #81b3d2;
+  background-color: #ffffff;
 }
 .hotel-name a:focus {
   color: #b2b2b2;
 }
 .hotel-action a {
   font: inherit;
-  color: #ffffff;
   font-weight: 700;
   text-align: center;
+  color: #ffffff;
 }
 .button-details {
   background-color: #81b3d2;
@@ -182,8 +187,8 @@ a {
   background-color: #669ec0;
 }
 .button-details:focus {
-  background-color: #5496bd;
   color: #87b6d1;
+  background-color: #5496bd;
 }
 .button-booking {
   background-color: #766357;
@@ -192,10 +197,10 @@ a {
   background-color: #604e43;
 }
 .button-booking:focus {
-  background-color: #503e33;
   color: #847870;
+  background-color: #503e33;
 }
 .hotel-raiting {
-  background-color: #f2f2f2;
   color: #666666;
+  background-color: #f2f2f2;
 }
