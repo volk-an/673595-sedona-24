@@ -1,34 +1,36 @@
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
   color: #333333;
-  background-color: #f2f2f2;
-  text-transform: uppercase;
+  background-color: #ffffff;
   background-image: url(../img/bg_sedona.jpg);
   background-repeat: no-repeat;
+  background-position: center -27px;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
 }
 .main-header {
-  min-height: 72px;
+  min-height:72px;
   margin-bottom: 61px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 .main-navigation {
-
-  width: 100%;
-
+  order: -1;
+  width: 1200px;
 }
 a {
    text-decoration: none;
 }
 
-
-}
 .main-logo-image {
   width: 140px;
   height: 72px;
@@ -36,6 +38,7 @@ a {
 .site-navigation {
   padding: 0;
   margin: 0;
+  width: 1200px;
   min-height: 56px;
   list-style: none;
   display: flex;
@@ -61,7 +64,15 @@ a {
   color:#766357;
 }
 .promo {
-  min-height: 728px;
+  min-height: 701px;
+  display: flex;
+  flex-direction: column-reverse;
+
+
+}
+.container-promo {
+  min-height: 216px;
+  background-color: #ffffff;
 
 }
 .promo-title {
@@ -70,7 +81,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #000000;
-  background-color:#dbe9f2;
+  background-color:#ffffff;
 }
 .promo-text {
   line-height: 26px;
