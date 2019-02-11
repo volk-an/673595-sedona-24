@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <a class="main-logo-image" href="index.html">
         <img src="img/svg-sedona/logo-sedona.svg" width="140" height="72" alt="логотип седона">
@@ -30,11 +30,13 @@
       </nav>
     </header>
     <main class="container">
+       <div class="hotels-container">
       <section class="filters">
         <h2 class="visualy-hidden">Фильтры гостиниц</h2>
         <form class="hotel-filters" action="https://echo.htmlacademy.ru" method="get">
+         <div class="check-wrapper">
           <fieldset class="check-filters">
-          <legend>Инфраструктура:</legend>
+            <legend>Инфраструктура:</legend>
             <ul>
               <li>
                 <input class="filter-input" type="checkbox" name="infrastructure" id="pool-filter" value="pool" checked>
@@ -67,10 +69,11 @@
                 </li>
               </ul>
           </fieldset>
+        </div>
         <!--Форма с бегукнком-->
           <button  type="submit" class="showresult">Показать</button>
         </form>
-      </section>
+        </section>
       <section class="hotels">
         <h2 class="visualy-hidden">Гостиницы</h2>
         <ul class="hotels-list">
@@ -133,8 +136,10 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
     <footer class="main-footer">
+        <div class="footer-container">
       <p class="footer-text">#Visitsedona</p>
       <ul class="soсial">
         <li>
@@ -153,6 +158,7 @@
           <img src="img/logo_htmlacademy.png" width="115" height="41" alt="Фото HTML Academy">
         </a>
       </p>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
