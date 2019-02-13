@@ -10,7 +10,14 @@ body {
   background-color: #f2f2f2;
 }
 .visualy-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .container{
   margin: 0 auto;
@@ -266,6 +273,11 @@ a {
   font-weight: 700;
   color: #ffffff;
 }
+.form-container {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
 .sort {
   min-height: 86px;
   background-color: #ffffff;
@@ -367,6 +379,7 @@ a {
   padding-right: 101px;
 }
 .footer-container {
+  margin-top:
   min-height: 48px;
   display: flex;
   justify-content: space-between;
