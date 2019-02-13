@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 76px;
 }
 a {
   text-decoration: none;
@@ -33,8 +34,8 @@ a {
   width: 140px;
   height: 72px;
   order: 1;
-  position: relative;
-  top: -56px;
+  position: absolute;
+  top: 0px;
 }
 .site-navigation {
   margin: 0;
@@ -70,7 +71,7 @@ a {
   color: #766357;
 }
 .promo {
-  min-height: 652px;
+  min-height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
