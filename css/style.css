@@ -51,7 +51,7 @@ a {
   min-height: 56px;
   text-align: center;
 }
-.site-navigation li:nth-child(n+3) {
+.site-navigation li:nth-child(3) {
   margin-left: auto;
 }
 .site-navigation a {
