@@ -53,17 +53,17 @@
               </li>
               <li>
                 <ul class="advantages-line">
-                  <li class="small-white">
+                  <li class="small-white aps">
                     <h3 class="advantage-title">Жилье</h3>
-                    <span class="feature-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</span>
+                    <span class="advantage-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</span>
                   </li>
-                  <li class="small-white">
+                  <li class="small-white food">
                     <h3 class="advantage-title">Еда</h3>
-                    <span class="feature-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</span>
+                    <span class="advantage-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</span>
                   </li>
-                  <li class="small-white">
+                  <li class="small-white gifts">
                     <h3 class="advantage-title">Сувениры</h3>
-                    <span class="feature-description">Не только китайского, но и местного производства!</span>
+                    <span class="advantage-description">Не только китайского, но и местного производства!</span>
                   </li>
                 </ul>
               </li>
@@ -101,29 +101,27 @@
             <div class="search-wrapper">
               <p class="search-title">Заинтересовались?</p>
               <p class="search-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
-            </div>
-            <button class="searchform-open">Поиск гостиницы в Седоне> </button>
-            <form class="hotel-search" action="https://echo.htmlacademy.ru" method="get">
-              <p class="date">
-                <label for="check-in">Дата заезда</label>
-                <input type="text" name="check-in-date" id="check-in" placeholder="24 апреля 2017">
-              </p>
-              <p class="date">
-                <label for="check-out">Дата выезда</label>
-                <input type="text" name="check-out-date" id="check-out" placeholder="4 июля 2017">
-              </p>
-              <p class="guests-number">
-                <label for="adult">Взрослые:</label>
-                <input type="number" min="1" step="1" value="2" name="adult-number" id="adult">
-              </p>
-              <p class="guests-number">
-                <label for="child">Дети:</label>
-                <input type="number" min="0" step="1" value="0" name="child-number" id="child">
-              </p>
-            <button type="submit" class="search-submit">Найти</button>
-          </form>
-
-          <!-- карта-->
+              <form class="hotel-search" action="https://echo.htmlacademy.ru" method="get">
+                <p class="date">
+                  <label for="check-in">Дата заезда:</label>
+                  <input type="text" name="check-in-date" id="check-in" placeholder="24 апреля 2017">
+                </p>
+                <p class="date">
+                  <label for="check-out">Дата выезда:</label>
+                  <input type="text" name="check-out-date" id="check-out" placeholder="4 июля 2017">
+                </p>
+                <p class="guests-number">
+                  <label for="adult">Взрослые:</label>
+                  <input type="number" min="1" step="1" value="2" name="adult-number" id="adult">
+                </p>
+                <p class="guests-number">
+                  <label for="child">Дети:</label>
+                  <input type="number" min="0" step="1" value="0" name="child-number" id="child">
+                </p>
+              <button type="submit" class="search-submit">Найти</button>
+            </form>
+            <button class="searchform-open">Поиск гостиницы в Седоне</button>
+          </div>
         </section>
       </main>
       <footer class="main-footer">
