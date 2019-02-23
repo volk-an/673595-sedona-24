@@ -62,6 +62,7 @@ a {
   display: inline-block;
   padding: 0;
   margin: 0;
+  vertical-align: middle;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
@@ -122,6 +123,7 @@ a {
 }
 .promo-title {
   margin: 0;
+  width: 440px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -132,6 +134,7 @@ a {
 .promo-text {
   margin: 0;
   margin-top: 30px;
+  width: 487px;
   line-height: 26px;
   color: #333333;
   background-color: #ffffff;
@@ -153,8 +156,9 @@ a {
   justify-content: space-between;
   width: 1200px;
   min-height: 256px;
-  background-color: #81b3d2;
-
+}
+.gray {
+  background-color: #eeeeee;
 }
 .advantage-text {
   display: flex;
@@ -165,12 +169,13 @@ a {
   width: 306px;
   min-height: 160px;
   color: #ffffff;
+  background-color: #81b3d2;
 }
 .advantage-title {
   display: block;
   margin: 0;
   margin-bottom: 23px;
-  padding: 0;
+  padding: 1px;
   width: 151px;
   font-size: 21px;
   font-weight: 700;
@@ -185,6 +190,9 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 22px;
+}
+.advantage-picture {
+  background-color:  #81b3d2;
 }
 .small {
   display: flex;
@@ -735,7 +743,6 @@ input[type='number'] {
   padding-right: 101px;
 }
 .footer-container {
-  margin-top:
   min-height: 48px;
   display: flex;
   justify-content: space-between;
