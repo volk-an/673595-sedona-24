@@ -63,14 +63,23 @@
                     <label for="motel-filter">Мотель</label>
                   </li>
                   <li class="check">
-                    <input class="filter-input visually-hidden" type="checkbox" name="hotel-type" id="apartment-filter" value="apartment" checked>
+                    <input class="filter-input visually-hidden" type="checkbox" disabled name="hotel-type" id="apartment-filter" value="apartment" checked>
                     <label for="apartment-filter">Апартаменты</label>
                   </li>
                 </ul>
             </fieldset>
-            <div class="form-container">
-              <!--Форма с бегукнком-->
-              <button  type="submit" class="showresult">Показать</button>
+            <div class="range-container">
+              <p class="range-title">стоимость в сутки (Р):</p>
+              <div class="price-wrap">
+                <label class="range-price">от<input type="text" name="minprice" value="0"></label>
+                <label class="range-price">до<input type="text" name="maxprice" value="3000"></label>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar"></div>
+                <div class="runner runner-min"></div>
+                <div class="runner runner-max"></div>
+              </div>
+              <button type="submit" class="showresult">Показать</button>
             </div>
           </form>
         </section>
