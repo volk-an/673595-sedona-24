@@ -449,8 +449,8 @@ input[type='number'] {
 }
 .hotel-filters {
   display: flex;
-  padding: 28px 72px;
-  min-height: 160px;
+  padding: 27px 72px 32px 72px ;
+  min-height: 158px;
   color: #ffffff;
   background-color: #5d88b2;
   background-image: url(../img/filter_background.png);
@@ -474,7 +474,7 @@ input[type='number'] {
 }
 .check {
   position: relative;
-  margin-top: 25px;
+  margin-top: 24px;
   margin-left: 40px;
 }
 .check label::before {
@@ -482,8 +482,8 @@ input[type='number'] {
   position: absolute;
   top:0;
   left: -40px;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   background-image: url(../img/svg-sedona/icon-checkbox-off.svg);
   background-repeat: no-repeat;
 }
@@ -499,7 +499,7 @@ input[type='number'] {
 }
 .range-container {
   display: flex;
-  width: 320px;
+  width: 318px;
   flex-direction: column;
   margin-left: auto;
 }
@@ -512,10 +512,11 @@ input[type='number'] {
   text-transform: uppercase;
 }
 .price-wrap {
-  min-height: 22px;
-  padding: 7px 0;
+  position: relative;
+  min-height: 20px;
+  padding: 6px 0;
   border: 2px solid #ffffff;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 .range-price label{
    display: inline-block;
@@ -524,6 +525,15 @@ input[type='number'] {
 .range-price {
   width: 120px;
   padding-left: 68px;
+}
+.range-price::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 156px;
+  width: 2px;
+  height: 22px;
+  background-color: #ffffff;
 }
 .price-wrap input {
   margin: 0;
@@ -535,8 +545,10 @@ input[type='number'] {
 }
 .showresult {
   margin-top: auto;
-  width: 133px;
-  min-height: 32px;
+  margin-left: 85px;
+  width: 138px;
+  min-height: 28px;
+  padding: 5px 30px;
   font: inherit;
   font-size: 14px;
   font-weight: 400;
@@ -546,6 +558,36 @@ input[type='number'] {
   background: none;
   border: 2px solid #ffffff;
   border-radius: 2px;
+}
+.bar-wrap {
+  position: relative;
+  margin-top: 20px;
+}
+.bar {
+  height: 2px;
+  background-color: #7a7678;
+}
+.bar-small {
+  width: 80%;
+  height: 2px;
+  background-color: #ffffff;
+}
+.runner {
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+}
+.runner-min {
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.runner-max {
+  position: absolute;
+  top: -10px;
+  left: 250px;
 }
 .catalog-sort {
   display: flex;
@@ -641,6 +683,7 @@ input[type='number'] {
   margin: 0;
   margin-top: 12px;
   padding: 0;
+  min-height: 27px;
 }
 .hotel-name {
   margin: 0;
@@ -684,13 +727,15 @@ input[type='number'] {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
+  min-height: 21px;
+  padding: 3px 16px;
   font: inherit;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
 }
 .button-details {
-  width: 110px;
+  width: 78px;
   background-color: #81b3d2;
 }
 .button-details:hover {
@@ -701,7 +746,7 @@ input[type='number'] {
   background-color: #5496bd;
 }
 .button-booking {
-  width: 142px;
+  width: 110px;
   background-color: #766357;
 }
 .button-booking:hover {
