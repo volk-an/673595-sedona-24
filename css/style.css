@@ -74,7 +74,7 @@ a {
 }
 .site-navigation li:nth-child(3) {
   margin-left: auto;
-  margin-right: 32px;
+  margin-right: 34px;
   text-align: right;
 }
 .site-navigation li:last-child {
@@ -98,7 +98,7 @@ a {
   min-height: 648px;
   background-image: url(../img/bg_sedona.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position:  bottom 7px left 0;
 }
 .container-promo {
   position: relative;
@@ -135,8 +135,9 @@ a {
 }
 .promo-text {
   margin: 0;
-  margin-top: 30px;
-  width: 487px;
+  margin-top: 28px;
+  padding: 0;
+  width: 490px;
   line-height: 26px;
   color: #333333;
   background-color: #ffffff;
@@ -154,30 +155,34 @@ a {
   list-style: none;
 }
 .advantages-line {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
   width: 1200px;
-  min-height: 256px;
+}
+.advice-line {
+  display: flex;
+  margin:0;
+  padding: 0;
+  width: 1200px;
 }
 .gray {
   background-color: #eeeeee;
 }
-.advantage-text {
+.advantage-blue {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   margin: auto;
   padding: 48px 47px;
-  width: 306px;
+  width: 400px;
   min-height: 160px;
   color: #ffffff;
   background-color: #81b3d2;
 }
 .advantage-title {
-  display: block;
   margin: 0;
-  margin-bottom: 23px;
-  padding: 1px;
+  margin-bottom: 24px;
   width: 151px;
   font-size: 21px;
   font-weight: 700;
@@ -191,30 +196,30 @@ a {
 .advantage-number {
   margin: 0;
   padding: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 .advantage-picture {
   background-color:  #81b3d2;
 }
-.small {
+.advantage-gray {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   padding: 48px 68px;
-  width: 266px;
+  width: 400px;
   min-height: 160px;
   background-color: #eeeeee;
 }
-.small-white {
+.advice {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 160px 73px 84px;
-  width: 254px;
-  min-height: 78px;
+  padding: 160px 50px 82px;
+  width: 400px;
+
   background-color: #ffffff;
 }
 .aps::before {
@@ -232,7 +237,7 @@ a {
   content: "";
   position: absolute;
   top: 60px;
-  left: 162px;
+  left: 164px;
   width: 72px;
   height: 75px;
   background-image: url(../img/svg-sedona/food.svg);
@@ -242,8 +247,8 @@ a {
 .gifts::before {
   content: "";
   position: absolute;
-  top: 60px;
-  left: 162px;
+  top: 57px;
+  left: 170px;
   width: 72px;
   height: 75px;
   background-image: url(../img/svg-sedona/gifts.svg);
@@ -260,7 +265,7 @@ a {
   min-height: 714px;
   background-color: #ffffff;
   background-image: url(../img/map.jpg);
-  background-position: 0 291px;
+  background-position: 0 290px;
   background-repeat: no-repeat;
 }
 .search-wrapper {
@@ -272,7 +277,7 @@ a {
 }
 .search-title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   padding: 0;
   font-size: 30px;
   line-height: 31px;
@@ -316,7 +321,7 @@ a {
 }
 .hotel-search {
   position: absolute;
-  top: 242px;
+  top: 240px;
   left: 0;
   display: flex;
   flex-wrap: wrap;
@@ -349,14 +354,11 @@ a {
   padding: 0;
   width: 38px;
   min-height: 38px;
-  font: inherit;
+  color:  #cacaca;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
-  color:  #cacaca;
-  vertical-align: middle;
   background-color:  #f2f2f2;
   border: 2px solid #f2f2f2;
   outline: none;
@@ -380,12 +382,12 @@ a {
   display: flex;
   align-items: center;
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 28px;
 }
 .date input {
   margin: 0;
-  padding-left: 13px;
-  width: 288px;
+  padding-left: 8px;
+  width: 294px;
   min-height: 34px;
 }
 .date input::placeholder {
@@ -395,13 +397,14 @@ a {
   display: inline-block;
   margin: 0;
   padding: 0;
-  margin-right: 20px;
+  margin-right: 18px;
   width: 96px;
 }
 .guests-number {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-top: 2px;
 }
 .guests-number input {
   margin: 0;
@@ -449,8 +452,8 @@ input[type='number'] {
 }
 .hotel-filters {
   display: flex;
-  padding: 27px 72px 32px 72px ;
-  min-height: 158px;
+  padding: 27px 72px 28px 72px ;
+  min-height: 162px;
   color: #ffffff;
   background-color: #5d88b2;
   background-image: url(../img/filter_background.png);
@@ -474,7 +477,7 @@ input[type='number'] {
 }
 .check {
   position: relative;
-  margin-top: 24px;
+  margin-top: 25px;
   margin-left: 40px;
 }
 .check label::before {
@@ -524,7 +527,7 @@ input[type='number'] {
 }
 .range-price {
   width: 120px;
-  padding-left: 68px;
+  padding-left: 64px;
 }
 .range-price::after {
   content: "";
@@ -544,11 +547,11 @@ input[type='number'] {
   border: none;
 }
 .showresult {
-  margin-top: auto;
-  margin-left: 85px;
+  margin-top: 31px;
+  margin-left: 84px;
+  padding: 5px 34px;
   width: 138px;
-  min-height: 28px;
-  padding: 5px 30px;
+  min-height: 37px;
   font: inherit;
   font-size: 14px;
   font-weight: 400;
@@ -587,7 +590,11 @@ input[type='number'] {
 .runner-max {
   position: absolute;
   top: -10px;
-  left: 250px;
+  left: 252px;
+}
+.runner:hover {
+  border: 9px solid #ffffff;
+
 }
 .catalog-sort {
   display: flex;
@@ -598,7 +605,7 @@ input[type='number'] {
 }
 .wrap-sort {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .result {
   margin: 0;
@@ -610,7 +617,7 @@ input[type='number'] {
 }
 .sort {
   margin: 0;
-  width: 116px;
+  width: 114px;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -647,6 +654,9 @@ input[type='number'] {
 .sort-button path {
   fill: #cacaca;
 }
+.active path {
+  fill: #81b3d2;
+}
 .sort-button:hover path {
   fill: #000000;
 }
@@ -659,12 +669,13 @@ input[type='number'] {
   list-style: none;
 }
 .hotel-item {
-  padding: 30px 72px;
+  padding: 26px 72px 30px;
   display: flex;
+  min-height: 94px;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
   border-collapse: collapse;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .hotel-container {
   display: flex;
@@ -687,7 +698,7 @@ input[type='number'] {
 }
 .hotel-name {
   margin: 0;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   padding: 0;
 }
 .hotel-type {
@@ -698,7 +709,7 @@ input[type='number'] {
 }
 .hotel-price {
   margin: 0;
-  margin-left: 20px;
+  margin-left: 18px;
   padding: 0;
 }
 .hotel-image {
@@ -816,25 +827,8 @@ input[type='number'] {
   background-position: 92px 0,
                        70px 0;
 }
-.footer-copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  width: 198px;
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-  background-color: #ffffff;
-}
 .main-footer {
-  padding-top: 36px;
-  padding-bottom: 36px;
-  padding-left: 132px;
-  padding-right: 101px;
-}
-.footer-container {
-  min-height: 48px;
+  min-height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -842,43 +836,58 @@ input[type='number'] {
 .footer-text {
   margin: 0;
   padding: 0;
+  width: 400px;
+  text-align: center;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
 }
-.soсial {
-  list-style: none;
-}
-.soсial {
+.social {
   display: flex;
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
+  padding: 0;
+  width: 400px;
   list-style: none;
-  width: 150px;
-  min-height: 48px;
 }
-.soсial-button {
+.social-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  margin-right: 6px;
+  padding: 0;
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
 }
-.soсial-button:hover {
+
+.social-button:hover {
   background-color: #669ec0;
 }
-.soсial-button:focus {
+.social-button:focus {
   background-color: #5496bd;
 }
 .social-button:focus path {
   fill: #87b6d1;
 }
 .footer-copyright {
+  margin: 0;
+  width: 400px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
   display: flex;
-  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.developer {
+  margin-left: 8px;
+
 }
 .footer-copyright path {
   fill:#000000;
