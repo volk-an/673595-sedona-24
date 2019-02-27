@@ -483,7 +483,7 @@ input[type='number'] {
 .check label::before {
   content: "";
   position: absolute;
-  top:0;
+  top: -2px;
   left: -40px;
   width: 26px;
   height: 26px;
@@ -493,7 +493,7 @@ input[type='number'] {
 .filter-input:checked + label::after {
   content: "";
   position: absolute;
-  top:0;
+  top: -2px;
   left: -40px;
   width: 30px;
   height:30px;
@@ -668,13 +668,15 @@ input[type='number'] {
   padding: 0;
   list-style: none;
 }
+.hotels-list li:first-child {
+  border-top: 1px solid #f2f2f2;
+}
 .hotel-item {
   padding: 26px 72px 30px;
   display: flex;
   min-height: 94px;
-  border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
-  border-collapse: collapse;
+
   align-items: flex-end;
 }
 .hotel-container {
@@ -779,9 +781,9 @@ input[type='number'] {
 .four-stars::before {
   content: "";
   position: absolute;
-  top: -68px;
-  left: 0;
-  width: 110px;
+  top: -64px;
+  left: -8px;
+  width: 120px;
   height: 27px;
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg),
@@ -791,9 +793,9 @@ input[type='number'] {
                      no-repeat,
                      no-repeat,
                      no-repeat;
-  background-position: 92px 0,
-                       70px 0,
-                       50px 0,
+  background-position: 100px 0,
+                       78px 0,
+                       54px 0,
                        30px 0;
 }
 .three-stars::before {
@@ -801,7 +803,7 @@ input[type='number'] {
   position: absolute;
   top: -68px;
   left: 0;
-  width: 110px;
+  width: 120px;
   height: 27px;
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg),
@@ -809,23 +811,23 @@ input[type='number'] {
   background-repeat: no-repeat,
                      no-repeat,
                      no-repeat;
-  background-position: 92px 0,
-                       70px 0,
-                       50px 0;
+  background-position: 100px 0,
+                       78px 0,
+                       54px 0;
 }
 .two-stars::before {
   content: "";
   position: absolute;
   top: -68px;
   left: 0;
-  width: 110px;
+  width: 120px;
   height: 27px;
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg);
   background-repeat: no-repeat,
                      no-repeat;
-  background-position: 92px 0,
-                       70px 0;
+  background-position: 100px 0,
+                       78px 0;
 }
 .main-footer {
   min-height: 120px;
