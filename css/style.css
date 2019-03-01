@@ -62,9 +62,9 @@ a {
 }
 .site-navigation a {
   display: inline-block;
+  vertical-align: middle;
   padding: 0;
   margin: 0;
-  vertical-align: middle;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
@@ -223,7 +223,6 @@ a {
   margin: auto;
   padding: 160px 50px 82px;
   width: 400px;
-
   background-color: #ffffff;
 }
 .aps::before {
@@ -337,7 +336,6 @@ a {
   25% {
     transform: translateY(-75px);
   }
-
   50% {
     transform: translateY(-50px);
   }
@@ -629,7 +627,6 @@ input[type='number'] {
 }
 .runner:hover {
   border: 9px solid #ffffff;
-
 }
 .catalog-sort {
   display: flex;
@@ -715,17 +712,15 @@ input[type='number'] {
   border-top: 1px solid #f2f2f2;
 }
 .hotel-item {
-  padding: 26px 72px 30px;
   display: flex;
-  min-height: 94px;
-  border-bottom: 1px solid #f2f2f2;
-
   align-items: flex-end;
+  min-height: 94px;
+  padding: 26px 72px 30px;
+  border-bottom: 1px solid #f2f2f2;
 }
 .hotel-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin-left: 30px;
   width: 258px;
 }
@@ -738,7 +733,6 @@ input[type='number'] {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  margin-top: 12px;
   padding: 0;
   min-height: 27px;
 }
@@ -784,6 +778,7 @@ input[type='number'] {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
+  margin-top: 12px;
   min-height: 21px;
   padding: 3px 16px;
   font: inherit;
@@ -803,7 +798,6 @@ input[type='number'] {
   background-color: #5496bd;
 }
 .button-booking {
-  margin-top: 10px;
   width: 110px;
   background-color: #766357;
 }
