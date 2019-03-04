@@ -136,6 +136,7 @@ a {
 .promo-text {
   margin: 0;
   margin-top: 28px;
+  margin-bottom: 56px;
   padding: 0;
   width: 600px;
   line-height: 26px;
@@ -192,11 +193,17 @@ a {
   font-weight: 700;
   text-align: center;
 }
+.advantage-gray .advantage-title {
+  width: 120px;
+}
 .advantage-description {
   margin: 0;
   padding: 0;
   text-align: center;
   width: 310px;
+}
+.advantage-gray .advantage-description {
+  width: 266px;
 }
 .advantage-number {
   margin: 0;
@@ -268,9 +275,6 @@ a {
   width: 1200px;
   min-height: 714px;
   background-color: #ffffff;
-  background-image: url(../img/map.jpg);
-  background-position: 0 290px;
-  background-repeat: no-repeat;
 }
 .search-wrapper {
   position: relative;
@@ -325,7 +329,7 @@ a {
 }
 .modal {
   position: absolute;
-  top: 240px;
+  top: 100%;
   left: 0;
   display: block;
   animation: bounce 0.2s;
@@ -423,6 +427,7 @@ a {
 }
 .date label {
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   padding: 0;
   margin-right: 18px;
@@ -448,9 +453,11 @@ a {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+    appearance: none;
 }
-input[type='number'] {
+input[type="number"] {
     -moz-appearance: textfield;
+    appearance: textfield;
 }
 .search-submit {
   margin-top: 54px;
@@ -596,6 +603,10 @@ input[type='number'] {
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
+.showresult:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
 .bar-wrap {
   position: relative;
   margin-top: 20px;
@@ -632,7 +643,7 @@ input[type='number'] {
 .catalog-sort {
   display: flex;
   align-items: center;
-  padding: 31px 72px;
+  padding: 30px 72px;
   min-height: 24px;
   background-color: #ffffff;
 }
@@ -744,6 +755,7 @@ input[type='number'] {
 }
 .hotel-type {
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   padding: 0;
   width: 96px;
@@ -841,8 +853,8 @@ input[type='number'] {
 .three-stars::before {
   content: "";
   position: absolute;
-  top: -68px;
-  left: 0;
+  top: -64px;
+  left: -8px;
   width: 120px;
   height: 27px;
   background-image: url(../img/svg-sedona/star.svg),
@@ -858,8 +870,8 @@ input[type='number'] {
 .two-stars::before {
   content: "";
   position: absolute;
-  top: -68px;
-  left: 0;
+  top: -64px;
+  left: -8px;
   width: 120px;
   height: 27px;
   background-image: url(../img/svg-sedona/star.svg),
@@ -901,7 +913,7 @@ input[type='number'] {
   align-items: center;
   margin: 0;
   margin-right: 6px;
-  margin-top: 6px;
+  margin-top: 4px;
   padding: 0;
   width: 46px;
   height: 48px;

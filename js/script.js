@@ -9,7 +9,7 @@ var form = popup.querySelector("form");
 
 var isStorageSupport = true;
 var storage = "";
-
+popup.classList.add("modal-hidden");
 button.addEventListener("click", function (evt) {
 evt.preventDefault();
   console.log("клик");
