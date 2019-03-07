@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-transform: uppercase;
   color: #333333;
+
   background-color: #f2f2f2;
 }
 .visually-hidden {
@@ -15,7 +17,9 @@ body {
   padding: 0;
   width: 1px;
   height: 1px;
+
   border: 0;
+
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -27,6 +31,7 @@ img {
 .container{
   margin: 0 auto;
   width: 1200px;
+
   background-color: #ffffff;
   box-shadow: 0 0 6px 3px #dcdcdc;
 }
@@ -38,6 +43,7 @@ img {
 }
 a {
   display: block;
+
   text-decoration: none;
 }
 .main-logo-image {
@@ -54,7 +60,9 @@ a {
   padding: 0 72px;
   width: 1056px;
   min-height: 56px;
+
   list-style: none;
+
   background-color: #ffffff;
 }
 .site-navigation li {
@@ -63,9 +71,11 @@ a {
 .site-navigation a {
   display: inline-block;
   vertical-align: middle;
-  padding: 0;
   margin: 0;
+  padding: 0;
+
   font-weight: 700;
+
   color: #000000;
   background-color: #ffffff;
 }
@@ -96,6 +106,7 @@ a {
   align-items: center;
   padding-top: 76px;
   min-height: 648px;
+
   background-image: url(../img/bg_sedona.jpg);
   background-repeat: no-repeat;
   background-position:  bottom 7px left 0;
@@ -110,6 +121,7 @@ a {
   padding-top: 61px;
   width: 1200px;
   min-height: 155px;
+
   background-color: #ffffff;
 }
 .container-promo::before {
@@ -119,6 +131,7 @@ a {
   left: 0px;
   width: 1200px;
   height: 59px;
+
   background-image: url(../img/svg-sedona/intro-mask.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -126,10 +139,12 @@ a {
 .promo-title {
   margin: 0;
   width: 510px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+
   color: #000000;
   background-color:#ffffff;
 }
@@ -139,27 +154,32 @@ a {
   margin-bottom: 56px;
   padding: 0;
   width: 600px;
+
   line-height: 26px;
+  text-align: center;
+
   color: #333333;
   background-color: #ffffff;
-  text-align: center;
 }
 .advantages {
   display: flex;
   flex-direction: column;
   min-height: 1100px;
+
   background-color: #ffffff;
 }
 .advantages ul {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 .advantages-line {
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
   width: 1200px;
+
   background-color: #81b3d2;
 }
 .advantages-line img {
@@ -182,6 +202,7 @@ a {
   padding: 48px 45px;
   width: 400px;
   min-height: 160px;
+
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -189,6 +210,7 @@ a {
   margin: 0;
   margin-bottom: 24px;
   width: 174px;
+
   font-size: 21px;
   font-weight: 700;
   text-align: center;
@@ -199,16 +221,17 @@ a {
 .advantage-description {
   margin: 0;
   padding: 0;
-  text-align: center;
   width: 310px;
+
+  text-align: center;
 }
 .advantage-gray .advantage-description {
   width: 266px;
 }
 .advantage-number {
   margin: 0;
-  padding: 0;
   margin-bottom: 20px;
+  padding: 0;
 }
 .advantage-picture {
   background-color:  #81b3d2;
@@ -221,6 +244,7 @@ a {
   padding: 48px 45px;
   width: 400px;
   min-height: 160px;
+
   background-color: #eeeeee;
 }
 .advice {
@@ -231,6 +255,7 @@ a {
   margin: auto;
   padding: 160px 45px 82px;
   width: 400px;
+
   background-color: #ffffff;
 }
 .aps::before {
@@ -240,6 +265,7 @@ a {
   left: 162px;
   width: 72px;
   height: 75px;
+
   background-image: url(../img/svg-sedona/aps.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -251,6 +277,7 @@ a {
   left: 164px;
   width: 72px;
   height: 75px;
+
   background-image: url(../img/svg-sedona/food.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -262,6 +289,7 @@ a {
   left: 170px;
   width: 72px;
   height: 75px;
+
   background-image: url(../img/svg-sedona/gifts.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -274,6 +302,7 @@ a {
   padding-top: 50px;
   width: 1200px;
   min-height: 714px;
+
   background-color: #ffffff;
 }
 .search-wrapper {
@@ -287,20 +316,24 @@ a {
   margin: 0;
   margin-bottom: 28px;
   padding: 0;
+
   font-size: 30px;
   line-height: 31px;
   font-weight: 700;
   text-align: center;
+
   color: #000000;
 }
 .search-text {
   margin: 0;
   margin-bottom: 46px;
   padding: 0;
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   text-align: center;
+
   color: #000000;
   background-color:#ffffff;
 }
@@ -309,6 +342,7 @@ a {
   padding: 0;
   width: 568px;
   min-height: 86px;
+
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -316,6 +350,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
+
   color: #ffffff;
   background-color: #766357;
   border: none;
@@ -332,6 +367,7 @@ a {
   top: 100%;
   left: 0;
   display: block;
+
   animation: bounce 0.2s;
 }
 @keyframes bounce {
@@ -357,9 +393,11 @@ a {
   justify-content: space-between;
   width: 458px;
   padding: 55px;
+
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
+
   background-color: #ffffff;
 }
 .modal-hidden {
@@ -368,8 +406,10 @@ a {
 .hotel-search input {
   margin: 0;
   padding: 0;
+
   font: inherit;
   text-transform: uppercase;
+
   color: #000000;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -386,11 +426,13 @@ a {
   padding: 0;
   width: 38px;
   min-height: 38px;
-  color:  #cacaca;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-transform: uppercase;
+
+  color:  #cacaca;
   background-color:  #f2f2f2;
   border: 2px solid #f2f2f2;
   outline: none;
@@ -429,8 +471,8 @@ a {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  padding: 0;
   margin-right: 18px;
+  padding: 0;
   width: 96px;
 }
 .guests-number {
@@ -443,12 +485,13 @@ a {
   margin: 0;
   width: 34px;
   min-height: 34px;
+
   text-align: center;
 }
 .guests-number label {
   margin: 0;
-  padding: 0;
   margin-right: 44px;
+  padding: 0;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -463,6 +506,7 @@ input[type="number"] {
   margin-top: 54px;
   width: 458px;
   height: 58px;
+
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -470,6 +514,7 @@ input[type="number"] {
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
+
   color: #ffffff;
   background-color: #81b3d2;
   border: none;
@@ -489,6 +534,7 @@ input[type="number"] {
   display: flex;
   padding: 27px 72px 28px 72px ;
   min-height: 162px;
+
   color: #ffffff;
   background-color: #5d88b2;
   background-image: url(../img/filter_background.png);
@@ -498,16 +544,19 @@ input[type="number"] {
   margin: 0;
   margin-right: 118px;
   padding: 0;
+
   border: none;
 }
 .hotel-filters ul {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 .hotel-filters legend {
   font-size: 16px;
   font-weight: 700;
+
   color: #ffffff;
 }
 .check {
@@ -522,6 +571,7 @@ input[type="number"] {
   left: -40px;
   width: 26px;
   height: 26px;
+
   background-image: url(../img/svg-sedona/icon-checkbox-off.svg);
   background-repeat: no-repeat;
 }
@@ -532,6 +582,7 @@ input[type="number"] {
   left: -40px;
   width: 30px;
   height:30px;
+
   background-image: url(../img/svg-sedona/icon-checkbox-on.svg);
   background-repeat: no-repeat;
 }
@@ -543,13 +594,14 @@ input[type="number"] {
 }
 .range-container {
   display: flex;
-  width: 318px;
   flex-direction: column;
   margin-left: auto;
+  width: 318px;
 }
 .range-title {
   margin: 0;
   margin-bottom: 10px;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
@@ -557,18 +609,19 @@ input[type="number"] {
 }
 .price-wrap {
   position: relative;
-  min-height: 20px;
   padding: 6px 0;
+  min-height: 20px;
+
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
 .range-price label{
-   display: inline-block;
-   vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 .range-price {
-  width: 120px;
   padding-left: 64px;
+  width: 120px;
 }
 .range-price::after {
   content: "";
@@ -577,12 +630,14 @@ input[type="number"] {
   left: 156px;
   width: 2px;
   height: 22px;
+
   background-color: #ffffff;
 }
 .price-wrap input {
   margin: 0;
   margin-left: 5px;
   width: 56px;
+
   color: #ffffff;
   background: none;
   border: none;
@@ -593,11 +648,13 @@ input[type="number"] {
   padding: 5px 34px;
   width: 138px;
   min-height: 37px;
+
   font: inherit;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   text-transform: uppercase;
+
   color: #ffffff;
   background: none;
   border: 2px solid #ffffff;
@@ -613,16 +670,19 @@ input[type="number"] {
 }
 .bar {
   height: 2px;
+
   background-color: #7a7678;
 }
 .bar-small {
   width: 80%;
   height: 2px;
+
   background-color: #ffffff;
 }
 .runner {
   width: 4px;
   height: 4px;
+
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -645,6 +705,7 @@ input[type="number"] {
   align-items: center;
   padding: 30px 72px;
   min-height: 24px;
+
   background-color: #ffffff;
 }
 .wrap-sort {
@@ -654,6 +715,7 @@ input[type="number"] {
 .result {
   margin: 0;
   width: 164px;
+
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
@@ -662,6 +724,7 @@ input[type="number"] {
 .sort {
   margin: 0;
   width: 114px;
+
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -673,15 +736,18 @@ input[type="number"] {
   margin: 0;
   padding: 0;
   width: 500px;
+
   list-style: none;
 }
 .sort-type {
   margin: 0;
   margin-right: 33px;
+
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
+
   color: #c6c6c6;
   text-decoration: none;
   border-bottom: 1px dotted #c6c6c6;
@@ -718,6 +784,7 @@ input[type="number"] {
 .hotels ul {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 .hotels-list li:first-child {
@@ -726,8 +793,9 @@ input[type="number"] {
 .hotel-item {
   display: flex;
   align-items: flex-end;
-  min-height: 94px;
   padding: 26px 72px 30px;
+  min-height: 94px;
+
   border-bottom: 1px solid #f2f2f2;
 }
 .hotel-container {
@@ -766,9 +834,9 @@ input[type="number"] {
   padding: 0;
 }
 .hotel-image {
+  order: -1;
   display: block;
   margin: 0;
-  order: -1;
 }
 .hotel-image img {
   display: block;
@@ -776,8 +844,10 @@ input[type="number"] {
 .hotels a {
   margin: 0;
   padding: 0;
+
   font-size: 21px;
   line-height: 26px;
+
   color: #000000;
 }
 .hotel-name a:hover {
@@ -794,9 +864,11 @@ input[type="number"] {
   margin-top: 12px;
   min-height: 21px;
   padding: 3px 16px;
+
   font: inherit;
   font-weight: 700;
   text-align: center;
+
   color: #ffffff;
 }
 .button-details {
@@ -827,6 +899,7 @@ input[type="number"] {
   margin-left: auto;
   margin-top: auto;
   padding: 3px 15px;
+
   color: #666666;
   background-color: #f2f2f2;
 }
@@ -837,6 +910,7 @@ input[type="number"] {
   left: -8px;
   width: 120px;
   height: 27px;
+
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg),
@@ -857,6 +931,7 @@ input[type="number"] {
   left: -8px;
   width: 120px;
   height: 27px;
+
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg);
@@ -874,6 +949,7 @@ input[type="number"] {
   left: -8px;
   width: 120px;
   height: 27px;
+
   background-image: url(../img/svg-sedona/star.svg),
                     url(../img/svg-sedona/star.svg);
   background-repeat: no-repeat,
@@ -891,10 +967,12 @@ input[type="number"] {
   margin: 0;
   padding: 0;
   width: 400px;
+
   text-align: center;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+
   color: #000000;
   background-color: #ffffff;
 }
@@ -905,6 +983,7 @@ input[type="number"] {
   margin: 0;
   padding: 0;
   width: 400px;
+
   list-style: none;
 }
 .social-button {
@@ -917,6 +996,7 @@ input[type="number"] {
   padding: 0;
   width: 46px;
   height: 48px;
+
   background-color: #81b3d2;
 }
 
@@ -930,19 +1010,20 @@ input[type="number"] {
   fill: #87b6d1;
 }
 .footer-copyright {
-  margin: 0;
-  width: 400px;
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  width: 400px;
+
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #000000;
+  background-color: #ffffff;
 }
 .developer {
   margin-left: 6px;
-
 }
 .footer-copyright path {
   fill:#000000;
