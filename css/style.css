@@ -109,7 +109,7 @@ a {
 
   background-image: url(../img/bg_sedona.jpg);
   background-repeat: no-repeat;
-  background-position:  bottom 7px left 0;
+  background-position:  bottom 8px left 0;
 }
 .container-promo {
   position: relative;
@@ -151,7 +151,7 @@ a {
 .promo-text {
   margin: 0;
   margin-top: 28px;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   padding: 0;
   width: 600px;
 
@@ -295,13 +295,14 @@ a {
   background-position: 0 0;
 }
 .search {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   padding-top: 50px;
   width: 1200px;
-  min-height: 714px;
+  min-height: 710px;
 
   background-color: #ffffff;
 }
@@ -364,6 +365,7 @@ a {
 }
 .modal {
   position: absolute;
+  z-index: 2;
   top: 100%;
   left: 0;
   display: block;
@@ -386,6 +388,31 @@ a {
   100% {
     transform: translateY(0);
   }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-20px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(20px);
+  }
+}
+.modal-error {
+  animation-name: shake;
+  animation-duration: 1s;
 }
 .hotel-search {
   display: flex;
@@ -525,6 +552,13 @@ input[type="number"] {
 .search-submit:focus {
   color: #87b6d1;
   background-color: #5496bd;
+}
+.i-map {
+  position: absolute;
+  top:288px;
+  z-index: 1;
+  width:1200px;
+  height:594px;
 }
 .inner-page {
   background-color: #ffffff;
@@ -818,7 +852,7 @@ input[type="number"] {
 }
 .hotel-name {
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   padding: 0;
 }
 .hotel-type {
@@ -873,6 +907,7 @@ input[type="number"] {
 }
 .button-details {
   width: 78px;
+
   background-color: #81b3d2;
 }
 .button-details:hover {
@@ -884,6 +919,7 @@ input[type="number"] {
 }
 .button-booking {
   width: 110px;
+  
   background-color: #766357;
 }
 .button-booking:hover {
@@ -958,10 +994,15 @@ input[type="number"] {
                        78px 0;
 }
 .main-footer {
+  position: relative;
+  z-index: 2;
   min-height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #ffffff;
+  opacity: 0.8;
 }
 .footer-text {
   margin: 0;
@@ -974,7 +1015,6 @@ input[type="number"] {
   font-weight: 700;
 
   color: #000000;
-  background-color: #ffffff;
 }
 .social {
   display: flex;
@@ -1020,7 +1060,6 @@ input[type="number"] {
   line-height: 26px;
 
   color: #000000;
-  background-color: #ffffff;
 }
 .developer {
   margin-left: 6px;
