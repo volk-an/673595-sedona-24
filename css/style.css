@@ -49,6 +49,8 @@ a {
 .main-logo-image {
   position: absolute;
   top: 0px;
+  left: 50%;
+  margin-left: -70px;
   width: 140px;
   height: 72px;
 }
@@ -57,9 +59,9 @@ a {
   flex-wrap: wrap;
   align-items: center;
   margin: 0;
-  padding: 0 72px;
+  padding: 16px 72px;
   width: 1056px;
-  min-height: 56px;
+  min-height: 22px;
 
   list-style: none;
 
@@ -107,6 +109,7 @@ a {
   padding-top: 76px;
   min-height: 648px;
 
+  background-color: #aec7de;
   background-image: url(../img/bg_sedona.jpg);
   background-repeat: no-repeat;
   background-position:  bottom 8px left 0;
@@ -555,8 +558,10 @@ input[type="number"] {
 }
 .i-map {
   position: absolute;
-  top:288px;
   z-index: 1;
+  top:288px;
+  left: 50%;
+  margin-left: -600px;
   width:1200px;
   height:594px;
 }
@@ -919,7 +924,7 @@ input[type="number"] {
 }
 .button-booking {
   width: 110px;
-  
+
   background-color: #766357;
 }
 .button-booking:hover {
