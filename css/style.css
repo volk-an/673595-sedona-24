@@ -81,16 +81,18 @@ a {
   color: #000000;
   background-color: #ffffff;
 }
-.site-navigation li:first-child {
+
+.site-navigation li:nth-child(4n+1) {
   margin-right: 30px;
 }
-.site-navigation li:nth-child(3) {
-  margin-left: auto;
-  margin-right: 34px;
-  text-align: right;
+.site-navigation li:nth-child(4n+3) {
+  margin-left: 150px;
+
+  text-align:right;
 }
-.site-navigation li:last-child {
-  margin-left: 0;
+.site-navigation li:nth-child(4n+4) {
+  margin-left: auto;
+  
   text-align: right;
 }
 .site-navigation a[href]:hover {
@@ -179,6 +181,7 @@ a {
 }
 .advantages-line {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   width: 1200px;
@@ -190,6 +193,7 @@ a {
 }
 .advice-line {
   display: flex;
+  flex-wrap: wrap;
   margin:0;
   padding: 0;
   width: 1200px;
@@ -202,8 +206,8 @@ a {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 48px 45px;
-  width: 400px;
+  padding: 48px 48px;
+  width: 304px;
   min-height: 160px;
 
   color: #ffffff;
@@ -218,19 +222,14 @@ a {
   font-weight: 700;
   text-align: center;
 }
-.advantage-gray .advantage-title {
-  width: 120px;
-}
 .advantage-description {
   margin: 0;
   padding: 0;
-  width: 310px;
+  width: 304px;
 
   text-align: center;
 }
-.advantage-gray .advantage-description {
-  width: 266px;
-}
+
 .advantage-number {
   margin: 0;
   margin-bottom: 20px;
@@ -241,14 +240,21 @@ a {
 }
 .advantage-gray {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 48px 45px;
-  width: 400px;
+  padding: 48px 50px;
+  width: 300px;
   min-height: 160px;
 
   background-color: #eeeeee;
+}
+.advantage-gray .advantage-title {
+  width: 120px;
+}
+.advantage-gray .advantage-description {
+  width: 264px;
 }
 .advice {
   position: relative;
@@ -256,8 +262,8 @@ a {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 160px 45px 82px;
-  width: 400px;
+  padding: 160px 50px 82px;
+  width: 300px;
 
   background-color: #ffffff;
 }
@@ -278,7 +284,7 @@ a {
   position: absolute;
   top: 60px;
   left: 164px;
-  width: 72px;
+  width: 74px;
   height: 75px;
 
   background-image: url(../img/svg-sedona/food.svg);
@@ -288,10 +294,10 @@ a {
 .gifts::before {
   content: "";
   position: absolute;
-  top: 57px;
-  left: 170px;
+  top: 56px;
+  left: 168px;
   width: 72px;
-  height: 75px;
+  height: 76px;
 
   background-image: url(../img/svg-sedona/gifts.svg);
   background-repeat: no-repeat;
@@ -832,8 +838,8 @@ input[type="number"] {
 .hotel-item {
   display: flex;
   align-items: flex-end;
-  padding: 26px 72px 30px;
-  min-height: 94px;
+  padding: 24px 72px 30px;
+  min-height: 96px;
 
   border-bottom: 1px solid #f2f2f2;
 }
@@ -960,7 +966,7 @@ input[type="number"] {
                      no-repeat,
                      no-repeat,
                      no-repeat;
-  background-position: 100px 0,
+  background-position: 102px 0,
                        78px 0,
                        54px 0,
                        30px 0;
@@ -979,7 +985,7 @@ input[type="number"] {
   background-repeat: no-repeat,
                      no-repeat,
                      no-repeat;
-  background-position: 100px 0,
+  background-position: 102px 0,
                        78px 0,
                        54px 0;
 }
@@ -995,7 +1001,7 @@ input[type="number"] {
                     url(../img/svg-sedona/star.svg);
   background-repeat: no-repeat,
                      no-repeat;
-  background-position: 100px 0,
+  background-position: 102px 0,
                        78px 0;
 }
 .main-footer {
@@ -1011,7 +1017,7 @@ input[type="number"] {
 }
 .footer-text {
   margin: 0;
-  padding: 0;
+  padding: 46px 0;
   width: 400px;
 
   text-align: center;
